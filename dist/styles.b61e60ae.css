@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    color: #333;
+}
+
+.nav-list {
+    height: 10vh;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    list-style: none;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.home {
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+
+.home-content {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-content img {
+    height: 70%;
+}
+
+.home-content h1 {
+    font-size: 50px;
+    margin: 30px 0px;
+}
+
+.home-content p {
+    font-size: 20px;
+}
+
+/*# sourceMappingURL=/styles.b61e60ae.css.map */
